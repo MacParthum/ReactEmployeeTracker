@@ -1,7 +1,9 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
+import employeeData from "../employee.json"
 
 export default function Layout(props) {
+  console.log(employeeData);
   return (
     <Table striped bordered hover>
       <thead>
